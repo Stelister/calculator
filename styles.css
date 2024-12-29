@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    border: 6px solid rgb(115, 39, 39);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.row {
+    display: flex;
+    gap: 12px;
+}
+button {
+    font-size: 27px;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 3px solid rgb(36, 116, 70);
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: rgb(36, 116, 70);
+    color: white
+}
+.input {
+    text-align: right;
+    word-break: break-word;
+    padding: 6px;
+    font-size: 28px;
+    min-height: 75px;
+    width: 236px;
+    border: 3px solid rgb(36, 116, 70);
+}
