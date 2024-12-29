@@ -3,10 +3,6 @@ let lastIsOp = 0;
 
 const btn_container = document.querySelector(".container");
 const input = document.querySelector(".input");
-let hoverEvent = new Event('mouseover');
-
-let btn = document.querySelector(".four")
-btn.dispatchEvent(hoverEvent);
 
 btn_container.addEventListener("click", (e) => {
 
